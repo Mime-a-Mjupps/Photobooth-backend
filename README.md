@@ -4,9 +4,9 @@
 The backend for the photobooth service used at Studentpuben Villan.
 
 # Requirements
-Docker
-Docker-Compose
-Traefik (if you want to be fancy and reverse proxy it)
+* Docker
+* Docker-Compose
+* Traefik (if you want to be fancy and reverse proxy it)
 # Installation
 
 1. Build the docker base image.
