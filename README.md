@@ -13,7 +13,7 @@ Traefik (if you want to be fancy and reverse proxy it)
 ```bash
 docker build -t photoserver .
 ```
-2. Copy the .env example to a .env and fill out the informaiton.
+2. Copy the .env example to a .env and fill out the information.
 ```bash
 cp .env.example .env
 ```
