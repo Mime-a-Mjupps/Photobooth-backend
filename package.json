@@ -1,0 +1,33 @@
+{
+  "name": "photobooth-backend",
+  "version": "1.0.0",
+  "description": "The Node.JS backend for the Photobooth at Studentpub Villan",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mime-a-Mjupps/Photobooth-backend.git"
+  },
+  "author": "Mr.Mime,Mjupps",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mime-a-Mjupps/Photobooth-backend/issues"
+  },
+  "homepage": "https://github.com/Mime-a-Mjupps/Photobooth-backend#readme",
+  "dependencies": {
+    "@fastify/cors": "^8.2.0",
+    "@fastify/formbody": "^7.4.0",
+    "@fastify/static": "^6.9.0",
+    "@fastify/view": "^7.4.1",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "fastify": "^4.13.0",
+    "mongoose": "^6.9.1",
+    "node-base64-to-file": "^1.0.4",
+    "path": "^0.12.7",
+    "shortid": "^2.2.16"
+  }
+}
